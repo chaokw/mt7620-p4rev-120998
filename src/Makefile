@@ -518,5 +518,3 @@ endif
 # Declare the contents of the .PHONY variable as phony.  We keep that information in a variable
 .PHONY: $(PHONY)
 
-
-
