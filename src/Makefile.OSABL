@@ -1,4 +1,3 @@
-
 all:
 	make -C UTIL/ osutil
 	$(SHELL) cp_util.sh
