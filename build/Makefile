@@ -10,7 +10,6 @@ SRC_DIR = ../rt2860v2
 obj-$(CONFIG_RT2860V2_AP) += $(DRV_NAME).o
 endif
 
-
 $(DRV_NAME)-objs += $(SRC_DIR)/common/crypt_md5.o
 $(DRV_NAME)-objs += $(SRC_DIR)/common/crypt_sha2.o
 $(DRV_NAME)-objs += $(SRC_DIR)/common/crypt_hmac.o
