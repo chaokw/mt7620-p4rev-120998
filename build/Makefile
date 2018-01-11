@@ -254,7 +254,6 @@ EXTRA_CFLAGS += -DCONFIG_RA_NAT_NONE
 
 #provide busy time statistics for every TBTT */
 #EXTRA_CFLAGS += -DQLOAD_FUNC_BUSY_TIME_STATS 
-
 # provide busy time alarm mechanism 
 # use the function to avoid to locate in some noise environments 
 #EXTRA_CFLAGS += -DQLOAD_FUNC_BUSY_TIME_ALARM
